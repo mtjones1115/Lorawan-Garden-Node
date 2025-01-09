@@ -21,7 +21,7 @@
 #define FORCE_REFORMAT          false
 
 LittleFS_MBED *myFS;
-Adafruit_BME280 bme(SPI_CS, SPI_MOSI, SPI_MISO, SPI_SCK); // hardware SPI
+Adafruit_BME280 bme(SPI_CS, SPI_MOSI, SPI_MISO, SPI_SCK); // software SPI
 
 int sensor1 = 26; 
 int dry_val = 686; 
